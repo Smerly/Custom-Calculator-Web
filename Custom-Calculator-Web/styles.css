@@ -1,0 +1,55 @@
+.cardsall {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(252, 220, 195);
+  font-family: "Helvetica Neue";
+  font-size: 2.5em;
+  font-weight: 2em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  font-family: "Helvetica Neue";
+  font-weight: 0.7em;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: gray;
+  font-family: "Helvetica Neue";
+  font-weight: 0.7em;
+}
+
+h2 {
+  color: gray;
+  font-family: "Helvetica Neue";
+  font-weight: 0.7em;
+}
+
+.space {
+  display: flex;
+  margin: 0.4em;
+}
